@@ -5,4 +5,5 @@ node_modules
 /build
 
 # misc
-.env
+# .env
+# local .env file should be ignored for developers can work locally on different environments
