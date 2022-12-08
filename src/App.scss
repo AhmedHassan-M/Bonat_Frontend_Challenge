@@ -1,0 +1,59 @@
+h1 {
+  color: #828282;
+}
+.filters-row {
+  .checkboxes-container {
+    .btn-checkbox {
+      background-color: #fcfcfc;
+      margin: 0 10px;
+      width: 80px;
+      &.active {
+        background-color: #36f;
+        color: #fff;
+      }
+    }
+  }
+}
+.face-card {
+  height: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .face-container {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    .face {
+      white-space: pre;
+      margin: 0;
+    }
+  }
+  .face-price {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  .face-date {
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #656565;
+  }
+}
+.page-loading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  img {
+    width: 30px;
+  }
+}
